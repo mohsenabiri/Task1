@@ -1,3 +1,8 @@
+# Foobar
+
+Foobar is a Python library for dealing with word pluralization.
+
+## Installation
 #Simple Data Scraper
 About Project
 this is my Task from HQrevenue company.
