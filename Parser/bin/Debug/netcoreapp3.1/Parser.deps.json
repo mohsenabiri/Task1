@@ -8,9 +8,11 @@
     ".NETCoreApp,Version=v3.1": {
       "Parser/1.0.0": {
         "dependencies": {
+          "FileExtractor": "1.0.0",
           "HtmlAgilityPack": "1.11.36",
           "HtmlAgilityPack.CssSelectors.NetCore": "1.2.1",
           "Microsoft.Extensions.Hosting": "5.0.0",
+          "Models": "1.0.0",
           "Services": "1.0.0"
         },
         "runtime": {

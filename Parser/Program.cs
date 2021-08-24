@@ -9,16 +9,13 @@ namespace Parser
 {
     class Program
     {
-        #region DataMember       
         private static IHotelManagerService _hotelManagerService;
-        #endregion
 
-        public Program(
-                       IHotelManagerService hotelManagerService
-            )
+        public Program(IHotelManagerService hotelManagerService)
         {
             _hotelManagerService = hotelManagerService;
         }
+
         static void Main(string[] args)
         {
             var serviceCollection = new ServiceCollection();
@@ -65,14 +62,13 @@ namespace Parser
             {
                 Console.WriteLine(item.Title + ' ' + item.RateString + "\n");
                 Console.WriteLine(item.Description);
-                Console.WriteLine("Image Href :" + item.ImageHref);
-                Console.WriteLine("Image Tooltip :" + item.ImageTooltip);
-                //Console.WriteLine("Image Link :"+item.ImageLink);
-                Console.WriteLine("People Count :" + item.ViewCount);
-                Console.WriteLine("Score :" + item.Score);
-                Console.WriteLine("ReviewCount :" + item.ReviewCount);
-                Console.WriteLine("ScoreTitle :" + item.ScoreTitle);
-                Console.WriteLine("BookNowLink :" + item.BookNowLink);
+                Console.WriteLine("Image Href :\t" + item.ImageHref);
+                Console.WriteLine("Image Tooltip :\t" + item.ImageTooltip);
+                Console.WriteLine("People Count :\t" + item.ViewCount);
+                Console.WriteLine("Score :\t" + item.Score);
+                Console.WriteLine("ReviewCount :\t" + item.ReviewCount);
+                Console.WriteLine("ScoreTitle :\t" + item.ScoreTitle);
+                Console.WriteLine("BookNowLink :\t" + item.BookNowLink);
                 Console.WriteLine("********************************************************************************\n");
             }
             Console.WriteLine("\n----------------------------------------------------------------------------------\n");
@@ -83,7 +79,7 @@ namespace Parser
             var Links = _hotelManagerService.GetAlternativeLink();
             foreach (var item in Links)
             {
-                Console.WriteLine(item.Title +"\n" + item.URL);
+                Console.WriteLine(item.Title +"\n\n\n" + item.URL);
 
                 Console.WriteLine("********************************************************************************\n");
             }

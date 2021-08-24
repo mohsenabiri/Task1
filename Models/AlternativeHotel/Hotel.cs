@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Models.Information;
 namespace Models.Alternative
 {
-    public class Hotel : HotelInformation
+    public class Hotel 
     {
         public string Title { get; set; }
         public string URL { get; set; }

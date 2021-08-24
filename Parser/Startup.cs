@@ -11,16 +11,12 @@ namespace Parser
     {
         public static IServiceProvider ConfigureService()
         {
-            var provider = new ServiceCollection()
-                 .AddLogging(configure => configure.AddConsole())
+            return new ServiceCollection()
+                .AddLogging(configure => configure.AddConsole())
                 .Configure<LoggerFilterOptions>(options => options.MinLevel = LogLevel.Information)
-                .AddTransient<ILogger>()
                 .AddTransient<IExtractor, Extractor>()
                 .AddTransient<IHotelManagerService, HotelManagerService>()
-
                 .BuildServiceProvider();
-
-            return provider;
         }
     }
 }

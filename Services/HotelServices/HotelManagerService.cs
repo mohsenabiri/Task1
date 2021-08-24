@@ -9,28 +9,26 @@ using Services.Interfecs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using Utility.ExtentionMethods;
 
 namespace Services.HotelServices
 {
    public class HotelManagerService : IHotelManagerService
     {
-        HtmlDocument _htmlDocument;
-        private IExtractor _extractor;
-        ILogger<HotelManagerService> _logger;
-        public HotelManagerService( IExtractor extractor , ILogger<HotelManagerService> logger)
+        private readonly HtmlDocument _htmlDocument;
+        private readonly IExtractor _extractor;
+        private readonly ILogger<HotelManagerService> _logger;
+
+        public HotelManagerService(IExtractor extractor, ILogger<HotelManagerService> logger)
         {
+            _logger = logger;
             _htmlDocument = new HtmlDocument();
             _extractor = extractor;
-            _htmlDocument.LoadHtml(_extractor.ReadFileHTMLtoString(@"D:\Practice\task1\task1.html"));
-            _logger = logger;
+            _htmlDocument.LoadHtml(_extractor.ReadFileHTMLtoString(AppDomain.CurrentDomain.BaseDirectory+@"Files\Task1.html"));
         }
         public List<Hotel> AlternativeHotel()
         {
             List<Hotel> hotels = new List<Hotel>();
-            _logger.LogInformation("Alt Started");
-            
             HtmlNode titleNode = _htmlDocument.DocumentNode.SelectSingleNode("//*[@id = 'hp_cs_persuasive_headers']");
             var allContent = _htmlDocument.DocumentNode.SelectSingleNode("//tr[@id = 'althotelsRow']");
             foreach (var item in allContent.Descendants("td").Where(e => e.NodeType == HtmlNodeType.Element))
@@ -159,11 +157,13 @@ namespace Services.HotelServices
             var doc = _htmlDocument.DocumentNode;
             HtmlNode NamehtmlNode = doc.SelectSingleNode("//*[@id = 'hp_hotel_name']");
             HtmlNode AddresshtmlNode = doc.SelectSingleNode("//*[@id = 'hp_address_subtitle']");
+            _logger.LogInformation("Data Scraping is started\n\n\n");
             return new List<string>
             {
                 NamehtmlNode.InnerText.Trim(),
-                AddresshtmlNode.InnerText.Trim()
+                AddresshtmlNode.InnerText.Trim()                
             };
+
         }
     }
 }

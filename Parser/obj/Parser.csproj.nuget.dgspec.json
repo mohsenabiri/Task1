@@ -148,6 +148,12 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
+              "D:\\Practice\\De\\Task-01\\FileExtractor\\FileExtractor.csproj": {
+                "projectPath": "D:\\Practice\\De\\Task-01\\FileExtractor\\FileExtractor.csproj"
+              },
+              "D:\\Practice\\De\\Task-01\\Models\\Models.csproj": {
+                "projectPath": "D:\\Practice\\De\\Task-01\\Models\\Models.csproj"
+              },
               "D:\\Practice\\De\\Task-01\\Services\\Services.csproj": {
                 "projectPath": "D:\\Practice\\De\\Task-01\\Services\\Services.csproj"
               }
