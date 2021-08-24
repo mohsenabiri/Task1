@@ -1,0 +1,10 @@
+D:\Practice\De\Task-01\FileExtractor\bin\Debug\netcoreapp3.1\FileExtractor.deps.json
+D:\Practice\De\Task-01\FileExtractor\bin\Debug\netcoreapp3.1\FileExtractor.dll
+D:\Practice\De\Task-01\FileExtractor\bin\Debug\netcoreapp3.1\FileExtractor.pdb
+D:\Practice\De\Task-01\FileExtractor\obj\Debug\netcoreapp3.1\FileExtractor.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice\De\Task-01\FileExtractor\obj\Debug\netcoreapp3.1\FileExtractor.AssemblyInfoInputs.cache
+D:\Practice\De\Task-01\FileExtractor\obj\Debug\netcoreapp3.1\FileExtractor.AssemblyInfo.cs
+D:\Practice\De\Task-01\FileExtractor\obj\Debug\netcoreapp3.1\FileExtractor.csproj.CoreCompileInputs.cache
+D:\Practice\De\Task-01\FileExtractor\obj\Debug\netcoreapp3.1\FileExtractor.dll
+D:\Practice\De\Task-01\FileExtractor\obj\Debug\netcoreapp3.1\FileExtractor.pdb
+D:\Practice\De\Task-01\FileExtractor\obj\Debug\netcoreapp3.1\FileExtractor.csproj.AssemblyReference.cache

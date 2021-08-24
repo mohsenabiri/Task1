@@ -1,0 +1,17 @@
+D:\Practice\De\Task-01\Services\bin\Debug\netcoreapp3.1\Services.deps.json
+D:\Practice\De\Task-01\Services\bin\Debug\netcoreapp3.1\Services.dll
+D:\Practice\De\Task-01\Services\bin\Debug\netcoreapp3.1\Services.pdb
+D:\Practice\De\Task-01\Services\obj\Debug\netcoreapp3.1\Services.csproj.AssemblyReference.cache
+D:\Practice\De\Task-01\Services\obj\Debug\netcoreapp3.1\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice\De\Task-01\Services\obj\Debug\netcoreapp3.1\Services.AssemblyInfoInputs.cache
+D:\Practice\De\Task-01\Services\obj\Debug\netcoreapp3.1\Services.AssemblyInfo.cs
+D:\Practice\De\Task-01\Services\obj\Debug\netcoreapp3.1\Services.csproj.CoreCompileInputs.cache
+D:\Practice\De\Task-01\Services\obj\Debug\netcoreapp3.1\Services.dll
+D:\Practice\De\Task-01\Services\obj\Debug\netcoreapp3.1\Services.pdb
+D:\Practice\De\Task-01\Services\bin\Debug\netcoreapp3.1\Models.dll
+D:\Practice\De\Task-01\Services\bin\Debug\netcoreapp3.1\Utility.dll
+D:\Practice\De\Task-01\Services\bin\Debug\netcoreapp3.1\Models.pdb
+D:\Practice\De\Task-01\Services\bin\Debug\netcoreapp3.1\Utility.pdb
+D:\Practice\De\Task-01\Services\obj\Debug\netcoreapp3.1\Services.csproj.CopyComplete
+D:\Practice\De\Task-01\Services\bin\Debug\netcoreapp3.1\FileExtractor.dll
+D:\Practice\De\Task-01\Services\bin\Debug\netcoreapp3.1\FileExtractor.pdb
